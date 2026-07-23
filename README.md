@@ -1,1 +1,4 @@
 # Apriori-vs-FP-Growth-Comparison
+Apriori and FP-Growth are two popular algorithms used for mining frequent itemsets and discovering association rules in transactional databases. Apriori works by generating candidate itemsets and repeatedly scanning the database to identify frequent patterns. While it is simple and easy to understand, it becomes slow and inefficient when working with large datasets because it requires multiple database scans and generates many unnecessary candidate itemsets.
+
+FP-Growth (Frequent Pattern Growth) is an improved algorithm that overcomes these limitations by compressing the database into a compact data structure called an FP-Tree. Instead of generating candidate itemsets, it directly extracts frequent patterns from the tree, making it much faster and more memory-efficient. FP-Growth performs well on large and dense datasets and is generally preferred in real-world data mining applications due to its higher speed and scalability.
